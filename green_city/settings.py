@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'dev-only-change-me'
+SECRET_KEY = 'dev-only-change-me-ok'
 DEBUG = True
 ALLOWED_HOSTS = []
 
