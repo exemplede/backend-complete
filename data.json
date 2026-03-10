@@ -1,0 +1,684 @@
+[
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "GestionnaireGlobal",
+    "permissions": [
+      [
+        "add_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "change_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "delete_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "view_logentry",
+        "admin",
+        "logentry"
+      ],
+      [
+        "add_group",
+        "auth",
+        "group"
+      ],
+      [
+        "change_group",
+        "auth",
+        "group"
+      ],
+      [
+        "delete_group",
+        "auth",
+        "group"
+      ],
+      [
+        "view_group",
+        "auth",
+        "group"
+      ],
+      [
+        "add_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "change_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "delete_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "view_permission",
+        "auth",
+        "permission"
+      ],
+      [
+        "add_user",
+        "auth",
+        "user"
+      ],
+      [
+        "change_user",
+        "auth",
+        "user"
+      ],
+      [
+        "delete_user",
+        "auth",
+        "user"
+      ],
+      [
+        "view_user",
+        "auth",
+        "user"
+      ],
+      [
+        "add_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "change_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "delete_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "view_token",
+        "authtoken",
+        "token"
+      ],
+      [
+        "add_tokenproxy",
+        "authtoken",
+        "tokenproxy"
+      ],
+      [
+        "change_tokenproxy",
+        "authtoken",
+        "tokenproxy"
+      ],
+      [
+        "delete_tokenproxy",
+        "authtoken",
+        "tokenproxy"
+      ],
+      [
+        "view_tokenproxy",
+        "authtoken",
+        "tokenproxy"
+      ],
+      [
+        "add_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "change_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "delete_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "view_contenttype",
+        "contenttypes",
+        "contenttype"
+      ],
+      [
+        "add_activitelog",
+        "gestion",
+        "activitelog"
+      ],
+      [
+        "change_activitelog",
+        "gestion",
+        "activitelog"
+      ],
+      [
+        "delete_activitelog",
+        "gestion",
+        "activitelog"
+      ],
+      [
+        "view_activitelog",
+        "gestion",
+        "activitelog"
+      ],
+      [
+        "add_articlestock",
+        "gestion",
+        "articlestock"
+      ],
+      [
+        "change_articlestock",
+        "gestion",
+        "articlestock"
+      ],
+      [
+        "delete_articlestock",
+        "gestion",
+        "articlestock"
+      ],
+      [
+        "view_articlestock",
+        "gestion",
+        "articlestock"
+      ],
+      [
+        "add_equipe",
+        "gestion",
+        "equipe"
+      ],
+      [
+        "change_equipe",
+        "gestion",
+        "equipe"
+      ],
+      [
+        "delete_equipe",
+        "gestion",
+        "equipe"
+      ],
+      [
+        "view_equipe",
+        "gestion",
+        "equipe"
+      ],
+      [
+        "add_equipement",
+        "gestion",
+        "equipement"
+      ],
+      [
+        "change_equipement",
+        "gestion",
+        "equipement"
+      ],
+      [
+        "delete_equipement",
+        "gestion",
+        "equipement"
+      ],
+      [
+        "view_equipement",
+        "gestion",
+        "equipement"
+      ],
+      [
+        "add_espacevert",
+        "gestion",
+        "espacevert"
+      ],
+      [
+        "change_espacevert",
+        "gestion",
+        "espacevert"
+      ],
+      [
+        "delete_espacevert",
+        "gestion",
+        "espacevert"
+      ],
+      [
+        "view_espacevert",
+        "gestion",
+        "espacevert"
+      ],
+      [
+        "add_intervention",
+        "gestion",
+        "intervention"
+      ],
+      [
+        "change_intervention",
+        "gestion",
+        "intervention"
+      ],
+      [
+        "delete_intervention",
+        "gestion",
+        "intervention"
+      ],
+      [
+        "view_intervention",
+        "gestion",
+        "intervention"
+      ],
+      [
+        "add_materiel",
+        "gestion",
+        "materiel"
+      ],
+      [
+        "change_materiel",
+        "gestion",
+        "materiel"
+      ],
+      [
+        "delete_materiel",
+        "gestion",
+        "materiel"
+      ],
+      [
+        "view_materiel",
+        "gestion",
+        "materiel"
+      ],
+      [
+        "add_mouvementstock",
+        "gestion",
+        "mouvementstock"
+      ],
+      [
+        "change_mouvementstock",
+        "gestion",
+        "mouvementstock"
+      ],
+      [
+        "delete_mouvementstock",
+        "gestion",
+        "mouvementstock"
+      ],
+      [
+        "view_mouvementstock",
+        "gestion",
+        "mouvementstock"
+      ],
+      [
+        "add_notification",
+        "gestion",
+        "notification"
+      ],
+      [
+        "change_notification",
+        "gestion",
+        "notification"
+      ],
+      [
+        "delete_notification",
+        "gestion",
+        "notification"
+      ],
+      [
+        "view_notification",
+        "gestion",
+        "notification"
+      ],
+      [
+        "add_signalement",
+        "gestion",
+        "signalement"
+      ],
+      [
+        "change_signalement",
+        "gestion",
+        "signalement"
+      ],
+      [
+        "delete_signalement",
+        "gestion",
+        "signalement"
+      ],
+      [
+        "view_signalement",
+        "gestion",
+        "signalement"
+      ],
+      [
+        "add_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "change_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "delete_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "view_session",
+        "sessions",
+        "session"
+      ],
+      [
+        "add_userprofile",
+        "users",
+        "userprofile"
+      ],
+      [
+        "change_userprofile",
+        "users",
+        "userprofile"
+      ],
+      [
+        "delete_userprofile",
+        "users",
+        "userprofile"
+      ],
+      [
+        "view_userprofile",
+        "users",
+        "userprofile"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$KKVGqtvsYBXD4P49eOF8zw$sqS117Ncfq1Op+riNz9CJhQGUBhWC2ZW+0vmszOpf9k=",
+    "last_login": "2026-03-09T11:42:31.178Z",
+    "is_superuser": true,
+    "username": "yugiro",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-02T00:56:39Z",
+    "groups": [
+      [
+        "GestionnaireGlobal"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$bdepwTQMe21zDwlvw5srsQ$TU84HyI7FSTubYuSIRErog6bA4vBUzJ4VVl8KsAGgHY=",
+    "last_login": "2026-03-09T15:50:15.793Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-09T11:07:15Z",
+    "groups": [
+      [
+        "GestionnaireGlobal"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$NVddwuJ6d1W4WUqekTTtHR$7wJm7Vdl2LiVGxGDzTzb6Ho9um83ORm4M2ZF+rD0oE4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "adminis",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-10T10:23:48.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$u47MNh3Gyk4lSkKFHKjCN6$7YmJy3sLOjKTwWKJRFlMaABxk8SuQiN9MjMFcvM+4Wc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-10T10:30:25Z",
+    "groups": [
+      [
+        "GestionnaireGlobal"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wsyycu5bdeasnv57uey0uam1qz7ea4ow",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDKgIBL9z0DmYFBqoYmpV0Z765NutDtf-_9l4i4rTVunZc4ZXERWpx-N8L04LaDfMd2m2Wa27pMJHdFHrTLcc78vB7u30HFXr91GtiBzaSNYaMyBWUtOxvAYmIDbiCFWLI7gyYNyWPAYJL1vhAUhiLeH-MMODM:1vzcs3:HyFHrSJVKZwg7p3un7xIvL3SPT0gCtz40KwqxphNFj8",
+    "expire_date": "2026-03-23T15:50:15.804Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ykbvo5khi2n2gjk6bzlpog51i70f5de4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDGAqUu3fcMzQzMSNVAUtqV8e7apAvd_vfef6kJtzVPW-NlmpO6KFCn340wPrjsIN2x3KqOtazLTHpX9EGbHmvi5_Vw_w4ytvytUbxlPEvyHGAQwy4NKNI7cR0BWPbIQMYSeCcCxhqMIXDoI3WGAqn3Bwx4OLw:1vwrcc:haHkhxqBab-V9NCHpc6I_pWRlbyc9IAajuTmt1NJh1k",
+    "expire_date": "2026-03-16T00:58:54.500Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "1ac0aa995977eca2aaf55bbf244ec89e4d5cb73f",
+  "fields": {
+    "user": [
+      "yugiro"
+    ],
+    "created": "2026-03-03T00:40:13.102Z"
+  }
+},
+{
+  "model": "gestion.espacevert",
+  "pk": 1,
+  "fields": {
+    "nom": "jjjhjh",
+    "type_espace": "PARC",
+    "superficie_m2": "67.00",
+    "adresse": "jj",
+    "zone": "jjnjn",
+    "created_at": "2026-03-03T00:40:36.076Z"
+  }
+},
+{
+  "model": "gestion.activitelog",
+  "pk": 1,
+  "fields": {
+    "utilisateur": [
+      "yugiro"
+    ],
+    "action": "Creation espace vert",
+    "objet_type": "EspaceVert",
+    "objet_id": 1,
+    "details": "",
+    "created_at": "2026-03-03T00:40:36.086Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "yugiro"
+    ],
+    "matricule": null,
+    "telephone": "",
+    "fonction": "",
+    "zone_reference": "",
+    "date_embauche": null,
+    "role_principal": "",
+    "actif_terrain": true,
+    "created_at": "2026-03-02T00:56:41.434Z",
+    "updated_at": "2026-03-09T11:42:31.184Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "matricule": null,
+    "telephone": "",
+    "fonction": "",
+    "zone_reference": "",
+    "date_embauche": null,
+    "role_principal": "",
+    "actif_terrain": true,
+    "created_at": "2026-03-09T11:07:16.528Z",
+    "updated_at": "2026-03-09T15:50:15.799Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "adminis"
+    ],
+    "matricule": null,
+    "telephone": "",
+    "fonction": "",
+    "zone_reference": "",
+    "date_embauche": null,
+    "role_principal": "",
+    "actif_terrain": true,
+    "created_at": "2026-03-10T10:23:48.573Z",
+    "updated_at": "2026-03-10T10:23:48.577Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "matricule": null,
+    "telephone": "",
+    "fonction": "",
+    "zone_reference": "",
+    "date_embauche": null,
+    "role_principal": "",
+    "actif_terrain": true,
+    "created_at": "2026-03-10T10:30:26.077Z",
+    "updated_at": "2026-03-10T10:30:40.951Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-03-02T00:59:12.432Z",
+    "user": [
+      "yugiro"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "GestionnaireGlobal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-03-02T00:59:24.930Z",
+    "user": [
+      "yugiro"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "yugiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-03-09T11:07:59.719Z",
+    "user": [
+      "yugiro"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-03-10T10:30:26.078Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-03-10T10:30:40.957Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+}
+]
